@@ -1,0 +1,151 @@
+/* Reset dasar */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #ffffff; /* putih */
+    color: #333333; /* hitam */
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #e60000; /* merah */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.navbar-brand {
+    font-weight: bold;
+    color: #ffffff; /* putih */
+}
+.navbar-nav .nav-link {
+    color: #ffffff; /* putih */
+    font-size: 16px;
+}
+.navbar-nav .nav-link:hover {
+    color: #f8f8f8; /* putih lebih terang */
+}
+
+/* Hero section */
+.hero {
+    background: linear-gradient(
+            rgba(0, 0, 0, 0.6),
+            rgba(0, 0, 0, 0.6)
+        ),
+        url('https://source.unsplash.com/1600x400/?nature'); /* Gambar alam */
+    color: #ffffff; /* putih */
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.6);
+}
+.hero h1 {
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+
+/* Kartu berita */
+.card {
+    border: none;
+    border-radius: 15px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff; /* putih */
+}
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+.card-img-top {
+    height: 250px;
+    object-fit: cover;
+}
+.card-body {
+    padding: 20px;
+    background-color: #ffffff; /* putih */
+}
+.card-title a {
+    color: #e60000; /* merah */
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.card-title a:hover {
+    color: #cc0000; /* merah lebih gelap */
+}
+.card-text {
+    color: #333333; /* hitam */
+    font-size: 0.95rem;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+/* Tombol */
+.btn-primary {
+    background-color: #e60000; /* merah */
+    border: none;
+    transition: background-color 0.3s ease;
+    padding: 10px 30px;
+    font-size: 1rem;
+    border-radius: 50px;
+}
+.btn-primary:hover {
+    background-color: #cc0000; /* merah lebih gelap */
+}
+.btn-danger {
+    background-color: #b04e4a; /* merah tua */
+    border: none;
+    transition: background-color 0.3s ease;
+    padding: 8px 20px;
+    font-size: 0.9rem;
+    border-radius: 50px;
+}
+.btn-danger:hover {
+    background-color: #8e3c3a; /* merah lebih gelap */
+}
+
+/* Input pencarian */
+.form-control {
+    border-radius: 30px;
+    padding: 12px 20px;
+    border: 1px solid #e60000; /* merah */
+    font-size: 1rem;
+    background-color: #ffffff; /* putih */
+}
+.input-group {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+/* Footer */
+footer {
+    background-color: #e60000; /* merah */
+    color: #ffffff; /* putih */
+    text-align: center;
+    padding: 20px 0;
+    font-size: 16px;
+    margin-top: 40px;
+}
+footer a {
+    color: #ffffff; /* putih */
+    text-decoration: none;
+}
+footer a:hover {
+    color: #f8f8f8; /* putih lebih terang */
+}
+
+/* Responsif */
+@media (max-width: 768px) {
+    .hero h1 {
+        font-size: 2.5rem;
+    }
+
+    .card {
+        margin-bottom: 20px;
+    }
+
+    .card-title {
+        font-size: 1rem;
+    }
+}

@@ -1,0 +1,60 @@
+/* Styling untuk body dan keseluruhan halaman */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Kontainer utama */
+.container {
+    width: 80%;
+    margin: 20px auto;
+}
+
+/* Tab links */
+.tablinks {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 16px;
+    cursor: pointer;
+    border: none;
+    width: 50%;
+    display: inline-block;
+    text-align: center;
+}
+
+/* Konten Tab */
+.tabcontent {
+    display: none;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+/* Form input dan styling */
+input[type="text"], input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Styling tombol submit */
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
